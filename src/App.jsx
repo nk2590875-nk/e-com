@@ -1,6 +1,7 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
+import ProfilePage from "./pages/ProfilePage";
 import Homepage from './pages/Homepage'
 import Navbar from './components/Navbar'
 import ShopPage from './pages/ShopPage'
@@ -8,7 +9,7 @@ import AboutPage from './pages/AboutPage'
 import ContactUs from './pages/ContactUs'
 import DashboardPage from './pages/DashboardPage'
 import OrderPage from './pages/OrderPage'
-import ProfilePage from './pages/profilePage'
+//import ProfilePage from './pages/profilePage'
 import UpdateProfile from './pages/UpdateProfile'
 import SaveAddress from './pages/SaveAddress'
 import WishlistPage from './pages/WishlistPage'
