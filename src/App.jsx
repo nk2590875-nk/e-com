@@ -15,17 +15,17 @@ import SaveAddress from './pages/SaveAddress'
 import WishlistPage from './pages/WishlistPage'
 import SignupPage from './pages/SignupPage'
 import LoginPage from './pages/LoginPage'
-import ForgetpasswordPage from './pages/ForgetpasswordPage'
+import ForgetPasswordPage from './pages/ForgetPasswordPage'
 import CartPage from './pages/CartPage'
-import ProductdetailsPage from './pages/productdetailsPage'
-import OrderconfirmationPage from './pages/OrderconfirmationPage'
+import  ProductDetailsPage from './pages/ProductDetailsPage'
+import OrderConfirmationPage from './pages/OrderConfirmationPage'
 import ErrorPage from './pages/ErrorPage'
 import FeaturePage from './pages/FeaturePage'
 import TestimonialPage from './pages/TestimonialPage'
 import AdminHomePage from './pages/Admin/AdminHomePage'
-import AdminMaincategoryPage from './pages/Admin/Maincategory/AdminMaincategoryPage'
-import AdminMaincategoryCreatePage from './pages/Admin/maincategory/AdminMaincategoryCreatePage'
-import AdminMaincategoryUpdatePage from './pages/Admin/Maincategory/AdminMaincategoryUpdatePage'
+import AdminMainCategoryPage from './pages/Admin/MainCategory/AdminMainCategoryPage'
+import AdminMainCategoryCreatePage from './pages/Admin/MainCategory/AdminMainCategoryCreatePage'
+import AdminMainCategoryUpdatePage from './pages/Admin/MainCategory/AdminMainCategoryUpdatePage'
 
 
 
@@ -51,18 +51,18 @@ export default function App() {
         <Route path='/Wishlist' element={<WishlistPage />} />
         <Route path='/Signup' element={<SignupPage />} />
         <Route path='/login' element={<LoginPage />} />
-        <Route path='/Forget-password' element={<ForgetpasswordPage />} />
+        <Route path='/Forget-password' element={<ForgetPasswordPage />} />
         <Route path='/Cart' element={<CartPage />} />
-        <Route path='/Productdetails' element={<ProductdetailsPage />} />
-        <Route path='/Order-confirmation' element={<OrderconfirmationPage />} />
+        <Route path='/ProductDetailsPage' element={<ProductDetailsPage />} />
+        <Route path='/Order-confirmation' element={<OrderConfirmationPage />} />
         <Route path='/Testimonial' element={<TestimonialPage />} />
 
         {/* Admin route */}
         <Route path='/admin' element={<AdminHomePage />} />
-         <Route path='/admin/maincategory' element={<AdminMaincategoryPage />} />
+         <Route path='/admin/MainCategory' element={<AdminMainCategoryPage />} />
          
-       <Route path='/admin/maincategory/Create' element={<AdminMaincategoryCreatePage />} />
-        <Route path='/admin/maincategory/edit/:id' element={<AdminMaincategoryUpdatePage />} />
+       <Route path='/admin/MainCategory/Create' element={<AdminMainCategoryCreatePage />} />
+        <Route path='/admin/MainCategory/edit/:id' element={<AdminMainCategoryUpdatePage />} />
         <Route path='/*' element={<ErrorPage />} />
 
 

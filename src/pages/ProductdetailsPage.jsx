@@ -1,7 +1,7 @@
-import React from 'react'
-import Breadcrum from '../components/Breadcrum'
+import react from 'react'
+import BreadCrum from '../components/Breadcrum'
 
-export default function ProductdetailsPage() {
+export default function ProductDetailsPage() {
     return (
         <>
 
@@ -9,10 +9,11 @@ export default function ProductdetailsPage() {
 
 
 
+
                 <Breadcrum title="Product Details"/>
 
 
-                
+
                 <section className="py-4">
                     <div className="container">
                         <div className="row g-4">

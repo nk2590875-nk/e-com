@@ -1,7 +1,7 @@
 import React from 'react'
 import Breadcrum from '../components/Breadcrum'
 
-export default function ForgetpasswordPage() {
+export default function ForgetPasswordPage() {
   return (
     <>
     <div className="page-content">

@@ -1,7 +1,7 @@
 import React from 'react'
 import Breadcrum from '../components/Breadcrum'
 
-export default function OrderconfirmationPage() {
+export default function OrderConfirmationPage() {
   return (
     <>
     <div class="page-content">
