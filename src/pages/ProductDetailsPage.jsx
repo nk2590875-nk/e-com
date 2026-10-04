@@ -1,5 +1,5 @@
 import react from 'react'
-import BreadCrum from '../components/Breadcrum'
+import Breadcrum from '../components/Breadcrum'
 
 export default function ProductDetailsPage() {
     return (
@@ -10,7 +10,7 @@ export default function ProductDetailsPage() {
 
 
 
-                <Breadcrum title="Product Details"/>
+                <Breadcrum title="Product Details" />
 
 
 
@@ -160,40 +160,40 @@ export default function ProductDetailsPage() {
                                                 <div className="rating-wrrap hstack gap-2 align-items-center">
                                                     <p className="mb-0">5</p>
                                                     <div className=""><i className="bi bi-star"></i></div>
-                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{height: "4px"}}>
-                                                        <div className="progress-bar bg-success" role="progressbar" style={{width: "75%"}}></div>
+                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{ height: "4px" }}>
+                                                        <div className="progress-bar bg-success" role="progressbar" style={{ width: "75%" }}></div>
                                                     </div>
                                                     <p className="mb-0">1528</p>
                                                 </div>
                                                 <div className="rating-wrrap hstack gap-2 align-items-center">
                                                     <p className="mb-0">4</p>
                                                     <div className=""><i className="bi bi-star"></i></div>
-                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{height: "4px"}}>
-                                                        <div className="progress-bar bg-success" role="progressbar" style={{width: "65%"}}></div>
+                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{ height: "4px" }}>
+                                                        <div className="progress-bar bg-success" role="progressbar" style={{ width: "65%" }}></div>
                                                     </div>
                                                     <p className="mb-0">253</p>
                                                 </div>
                                                 <div className="rating-wrrap hstack gap-2 align-items-center">
                                                     <p className="mb-0">3</p>
                                                     <div className=""><i className="bi bi-star"></i></div>
-                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{height: "4px"}}>
-                                                        <div className="progress-bar bg-info" role="progressbar" style={{width:"45%"}}></div>
+                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{ height: "4px" }}>
+                                                        <div className="progress-bar bg-info" role="progressbar" style={{ width: "45%" }}></div>
                                                     </div>
                                                     <p className="mb-0">258</p>
                                                 </div>
                                                 <div className="rating-wrrap hstack gap-2 align-items-center">
                                                     <p className="mb-0">2</p>
                                                     <div className=""><i className="bi bi-star"></i></div>
-                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{height: "4px"}}>
-                                                        <div className="progress-bar bg-warning" role="progressbar" style={{width: "35%"}}></div>
+                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{ height: "4px" }}>
+                                                        <div className="progress-bar bg-warning" role="progressbar" style={{ width: "35%" }}></div>
                                                     </div>
                                                     <p className="mb-0">78</p>
                                                 </div>
                                                 <div className="rating-wrrap hstack gap-2 align-items-center">
                                                     <p className="mb-0">1</p>
                                                     <div className=""><i className="bi bi-star"></i></div>
-                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{height: "4px"}}>
-                                                        <div className="progress-bar bg-danger" role="progressbar" style={{width: "25%"}}></div>
+                                                    <div className="progress flex-grow-1 mb-0 rounded-0" style={{ height: "4px" }}>
+                                                        <div className="progress-bar bg-danger" role="progressbar" style={{ width: "25%" }}></div>
                                                     </div>
                                                     <p className="mb-0">27</p>
                                                 </div>
